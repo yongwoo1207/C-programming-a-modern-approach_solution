@@ -5,7 +5,7 @@ int main()
 	float loan, rate, pay_m, debt;
 	int i;
 
-	//Ãâ·Â ¹× Á¤º¸ ¹Ş¾Æ¿À±â
+	//ì¶œë ¥ ë° ì •ë³´ ë°›ì•„ì˜¤ê¸°
 	printf("Enter amount of loan: ");
 	scanf_s("%f", &loan);
 	printf("Enter interest rate: ");
@@ -13,7 +13,7 @@ int main()
 	printf("Enter monthly payment: ");
 	scanf_s("%f", &pay_m);
 
-	//1~3´ŞÂ÷ ³²Àº ±İ¾× °è»êÇÏ±â
+	//1~3ë‹¬ì°¨ ë‚¨ì€ ê¸ˆì•¡ ê³„ì‚°í•˜ê¸°
 	for (i = 1; i <= 3; i++)
 	{
 		debt = (loan * 0.06) / 12;
