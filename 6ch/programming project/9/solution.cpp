@@ -1,4 +1,4 @@
-//ch6. 9¹ø
+//ch6. 9ë²ˆ
 #include <stdio.h>
 
 int main()
@@ -6,7 +6,7 @@ int main()
 	float loan, rate, pay_m, debt, re_pay;
 	int i, m;
 
-	//Ãâ·Â ¹× Á¤º¸ ¹Ş¾Æ¿À±â
+	//ì¶œë ¥ ë° ì •ë³´ ë°›ì•„ì˜¤ê¸°
 	printf("Enter amount of loan: ");
 	scanf_s("%f", &loan);
 	printf("Enter interest rate: ");
@@ -14,14 +14,14 @@ int main()
 	printf("Enter monthly payment: ");
 	scanf_s("%f", &pay_m);
 
-	//¾ó¸¶³ª »óÈ¯Çß´ÂÁö Á¤º¸ ¹Ş¾Æ¿À±â
+	//ì–¼ë§ˆë‚˜ ìƒí™˜í–ˆëŠ”ì§€ ì •ë³´ ë°›ì•„ì˜¤ê¸°
 	printf("Enter the period of payment (month): ");
 	scanf_s("%d", &m);
 
 
 	for (i = 1; i <= m; i++)
 	{
-		debt = (loan * 0.06) / 12;  // ÀÌÀÚºñ¿ë °è»ê
+		debt = (loan * 0.06) / 12;  // ì´ìë¹„ìš© ê³„ì‚°
 		re_pay = loan - pay_m + debt;
 		loan = re_pay;
 		if (m == i)
