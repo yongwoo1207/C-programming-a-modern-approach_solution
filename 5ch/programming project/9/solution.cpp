@@ -1,4 +1,4 @@
-//ch.5 9¹ø
+//ch.5 9Â¹Ã¸
 #include <stdio.h>
 int main()
 {
