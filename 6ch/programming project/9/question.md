@@ -1,10 +1,10 @@
 ch6. #9
 modify the program *ch2. #8* so that it also asks the user to enter the number of payments and then displays the balance remaining after each of these payment
-
-#
-#
-#
-
+<br/>
+<br/>
+<br/>
+#Reference
+<br/>
 ch2. #8
 write a program that calculates the remaining balance on a loan after the first, second, and thrid monthlt payment:
 
