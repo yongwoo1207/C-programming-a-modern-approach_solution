@@ -1,5 +1,5 @@
 ch6. #9
-h1\ modify the program ch2. #8so 
+modify the program *ch2. #8* so that it also asks the user to enter the number of payments and then displays the balance remaining after each of these payment
 
 
 
