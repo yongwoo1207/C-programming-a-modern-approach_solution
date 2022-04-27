@@ -1,3 +1,5 @@
+//학교 교수님께서 올려주신 솔루션 입니다.
+
 #include <stdio.h>
 
 int main()
