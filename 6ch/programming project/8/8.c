@@ -9,11 +9,11 @@ int main()
 	printf("Enter sterting day of the week (1=sun, 7=sat): ");
 	scanf_s("%d", &start_day);
 
-	//Ã¹ ÁÙ °ø¹é ¸¸µé±â
+	//ì²« ì¤„ ê³µë°± ë§Œë“¤ê¸°
 	for (i = 1; i < start_day; i++)
 		printf("   ");
 	
-	//´Þ·Â ¸¸µé±â
+	//ë‹¬ë ¥ ë§Œë“¤ê¸°
 	for (j = 1; j <= days; j++, i++) {
 		printf("%3d", j);
 		if (i % 7 == 0)
